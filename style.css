@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #a8a49c;
+    font-family: "Arial", sans-serif;
   }
 
 .nav-container {
@@ -32,6 +33,7 @@ html, body {
 
 #intro {
   font-size: 30px;
+  margin-top: 30px;
 }
 
 .button-holder {
@@ -47,6 +49,7 @@ html, body {
   color: #333;
   box-shadow: 0 2.5px 10px rgba(0, 0, 0, 1);
   cursor: pointer;
+  transition: transform 0.3s;
 }
 
 body{
@@ -69,6 +72,7 @@ a{
     text-decoration: none;
     color: #333;
     font-size: 18px;
+    transition: transform 0.3s;
 }
 
 #button:hover{
